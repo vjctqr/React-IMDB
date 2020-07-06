@@ -38,9 +38,11 @@ class FilmBox extends Component{
         return(
             <div className="film-box">
                 <h3>Upcoming Film Releases for UK</h3>
+                <hr></hr>
                 <p>
-                    <FilmList films={this.state.films}/>
+                <FilmList films={this.state.films}/>
                 </p>
+            
                 <h3>View more upcoming releases >></h3>
             </div>
         );
