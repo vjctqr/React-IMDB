@@ -37,13 +37,15 @@ class FilmBox extends Component{
     render(){
         return(
             <div className="film-box">
+                <div class="boxed">
                 <h3>Upcoming Film Releases for UK</h3>
                 <hr></hr>
                 <p>
-                <FilmList films={this.state.films}/>
+                   <FilmList films={this.state.films}/>
                 </p>
-            
+                <hr></hr> 
                 <h3>View more upcoming releases >></h3>
+                </div>
             </div>
         );
     }

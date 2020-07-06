@@ -1,0 +1,14 @@
+
+.boxed {
+    background: rgb(215, 224, 226);
+    border: solid 2px #474544;
+    max-width: 390px;
+    margin: 60px auto;
+    position: relative;
+    padding: 2em;
+} 
+
+h4 {
+    color: rgb(15, 118, 187);
+}
+

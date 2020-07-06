@@ -5,7 +5,7 @@ class Film extends Component {
         return (
             <div className="film">
                 <h3>{this.props.children}</h3>
-                <p>&bull;{this.props.name}</p>
+                <h4>&bull;{this.props.name}</h4>
             </div>
         )
     }
