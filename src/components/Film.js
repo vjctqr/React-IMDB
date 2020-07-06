@@ -11,4 +11,4 @@ class Film extends Component {
     }
 }
 
-export default Films;
+export default Film;
