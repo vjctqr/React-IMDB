@@ -10,7 +10,13 @@ class FilmBox extends Component{
                     id: 1,
                     name: "Spider-Man: Into the Spider-Verse",
                     url: "http://www.imdb.com/title/tt4633694/?ref_=rlm"
+                },
+                {
+                    id: 2,
+                    name: "Life Itself",
+        
                 }
+
             ]
         }
     }
